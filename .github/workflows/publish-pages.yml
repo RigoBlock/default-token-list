@@ -33,6 +33,7 @@ jobs:
         with:
           path: ./build
           
-      - id: deployment
-        uses: actions/deploy-pages@main
+      # needed in case of direct commit to main instead of PR    
+      #- id: deployment
+      #  uses: actions/deploy-pages@main
 

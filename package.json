@@ -1,0 +1,39 @@
+{
+  "name": "@rigoblock/default-token-list",
+  "version": "8.2.0",
+  "description": "The Rigoblock default token list",
+  "main": "build/rigoblock-default.tokenlist.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/rigoblock-default.tokenlist.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/rigoblock-default.tokenlist.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RigoBlock/default-token-list.git"
+  },
+  "keywords": [
+    "rigoblock",
+    "default",
+    "token",
+    "list"
+  ],
+  "author": "Moody Salem", "Gabriele Rigo"
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/RigoBlock/default-token-list/issues"
+  },
+  "homepage": "https://github.com/RigoBlock/default-token-list#readme",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@uniswap/token-lists": "^1.0.0-beta.29",
+    "@uniswap/token-list-bridge-utils": "^1.1.1",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}

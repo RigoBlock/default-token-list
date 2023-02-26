@@ -7,6 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
 
     steps:
       - name: Checkout
@@ -25,14 +27,7 @@ jobs:
 
       - name: Build list
         run: yarn build
-          
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-
-    steps:   
+        
       - name: Deploy list
         uses: actions/upload-pages-artifact@v1
         with:

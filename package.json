@@ -21,7 +21,10 @@
     "token",
     "list"
   ],
-  "author": "Moody Salem", "Gabriele Rigo"
+  "author": "Moody Salem",
+  "contributors": [
+    "Gabriele Rigo"
+   ],
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/RigoBlock/default-token-list/issues"

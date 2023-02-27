@@ -48,6 +48,7 @@ jobs:
         uses: actions/configure-pages@v3
         
       - name: Deploy list
+        id: build-artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # only built files are uploaded as artifact
@@ -57,6 +58,8 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         
-      - name: Run a one-line script
-        run: echo ${{ steps.deployment.outputs.page_url }}
-
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          echo ${{ steps.build-artifact.output }}

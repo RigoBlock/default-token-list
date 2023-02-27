@@ -23,7 +23,7 @@ module.exports = function buildList() {
       patch: +parsed[2],
     },
     tags: {},
-    logoURI: "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+    logoURI: "ipfs://QmeEBENZwGEKAq4Wx96iuTGQQGjBY2tJcJzNnTpqpEuHVe",
     keywords: ["rigoblock", "default"],
     tokens: [...mainnet, ...ropsten, ...goerli, ...kovan, ...rinkeby, ...polygon, ...mumbai, ...optimism, ...celo, ...arbitrum]
       // sort them by symbol for easy readability

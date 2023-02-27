@@ -24,6 +24,27 @@
     }
   },
   {
+    "name": "Rigo Token",
+    "address": "0x4FbB350052Bca5417566f188eB2EBCE5b19BC964",
+    "symbol": "GRG",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4FbB350052Bca5417566f188eB2EBCE5b19BC964/logo.png",
+    "extensions": {
+      "bridgeInfo": {
+        "10": {
+          "tokenAddress": "0xEcF46257ed31c329F204Eb43E254C609dee143B3"
+        },
+        "137": {
+          "tokenAddress": "0xBC0BEA8E634ec838a2a45F8A43E7E16Cd2a8BA99"
+        },
+        "42161": {
+          "tokenAddress": "0x7F4638A58C0615037deCc86f1daE60E55fE92874"
+        }
+      }
+    }
+  },
+  {
     "name": "Dai Stablecoin",
     "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
     "symbol": "DAI",

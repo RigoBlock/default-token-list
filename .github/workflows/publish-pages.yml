@@ -50,10 +50,13 @@ jobs:
       - name: Deploy list
         uses: actions/upload-pages-artifact@v1
         with:
-          #path: ./build
-          path: '.'
+          # only built files are uploaded as artifact
+          path: ./build
           
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        
+      - name: Run a one-line script
+        run: echo ${{ steps.deployment.outputs.page_url }}
 

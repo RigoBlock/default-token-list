@@ -15,7 +15,7 @@ const bridgeUtils = require('@uniswap/token-list-bridge-utils');
 module.exports = function buildList() {
   const parsed = version.split(".");
   const l1List = {
-    name: "Uniswap Labs Default",
+    name: "Rigoblock Labs Default",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -24,7 +24,7 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI: "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
-    keywords: ["uniswap", "default"],
+    keywords: ["rigoblock", "default"],
     tokens: [...mainnet, ...ropsten, ...goerli, ...kovan, ...rinkeby, ...polygon, ...mumbai, ...optimism, ...celo, ...arbitrum]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {

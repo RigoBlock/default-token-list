@@ -16,6 +16,7 @@ Token Address:
 Token Name (from contract): 
 Token Decimals (from contract): 
 Token Symbol (from contract): 
+Network: 
 
 Link to the official homepage of token:
 Link to CoinMarketCap or CoinGecko page of token: 

@@ -9,6 +9,7 @@ const mumbai = require("./tokens/mumbai.json");
 const optimism = require("./tokens/optimism.json");
 const celo = require("./tokens/celo.json");
 const arbitrum = require("./tokens/arbitrum.json");
+const bsc = require("./tokens/bsc.json");
 
 const bridgeUtils = require('@uniswap/token-list-bridge-utils');
 
@@ -25,7 +26,7 @@ module.exports = function buildList() {
     tags: {},
     logoURI: "ipfs://QmeEBENZwGEKAq4Wx96iuTGQQGjBY2tJcJzNnTpqpEuHVe",
     keywords: ["rigoblock", "default"],
-    tokens: [...mainnet, ...ropsten, ...goerli, ...kovan, ...rinkeby, ...polygon, ...mumbai, ...optimism, ...celo, ...arbitrum]
+    tokens: [...mainnet, ...ropsten, ...goerli, ...kovan, ...rinkeby, ...polygon, ...mumbai, ...optimism, ...celo, ...arbitrum, ...bsc]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
         if (t1.chainId === t2.chainId) {

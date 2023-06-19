@@ -14,5 +14,13 @@
     "decimals": 18,
     "chainId": 5,
     "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+  },
+  {
+    "name": "Rigo Token",
+    "address": "0x076C619e7ebaBe40746106B66bFBed731F2c1339",
+    "symbol": "GRG",
+    "decimals": 18,
+    "chainId": 5,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4FbB350052Bca5417566f188eB2EBCE5b19BC964/logo.png"
   }
 ]

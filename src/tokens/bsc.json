@@ -1,9 +1,18 @@
 [
   {
     "chainId": 56,
-    "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+    "address": "0x3d473C3eF4Cd4C909b020f48477a2EE2617A8e3C",
+    "name": "Rigo Token",
+    "symbol": "GRG",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4FbB350052Bca5417566f188eB2EBCE5b19BC964/logo.png"
+  },
+  {
+    "chainId": 56,
+    "address": "0x9B44Df3318972bE845d83f961735609137C4C23c",
     "name": "Propel",
     "symbol": "PROPEL",
-    "decimals": 18
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/binance/assets/PROPEL-6D9/logo.png"
   }
 ]

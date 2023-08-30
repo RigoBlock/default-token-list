@@ -1,0 +1,10 @@
+[
+  {
+    "chainId": 8453,
+    "address": "0x09188484e1Ab980DAeF53a9755241D759C5B7d60",
+    "name": "Rigo Token",
+    "symbol": "GRG",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4FbB350052Bca5417566f188eB2EBCE5b19BC964/logo.png"
+  }
+]

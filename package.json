@@ -1,6 +1,6 @@
 {
   "name": "@rigoblock/default-token-list",
-  "version": "8.4.0",
+  "version": "8.4.1",
   "description": "The Rigoblock default token list",
   "main": "build/rigoblock-default.tokenlist.json",
   "scripts": {
